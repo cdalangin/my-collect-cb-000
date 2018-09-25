@@ -7,6 +7,7 @@ def my_collect(empty_array)
       thing << yield(empty_array[i])
     i += 1
   end
+  thing
 end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
