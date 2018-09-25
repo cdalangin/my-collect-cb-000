@@ -2,8 +2,9 @@ require 'pry'
 
 def my_collect(empty_array)
   i = 0
+  thing = []
     while i < empty_array.length
-      yield(empty_array[i])
+      thing << yield(empty_array[i])
     i += 1
   end
 end
